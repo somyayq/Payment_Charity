@@ -1,0 +1,240 @@
+/* Global Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f0f2f5;
+    font-family: 'Fredoka One', cursive;
+    color: #333;
+}
+
+body{
+    background-image: url('./assets/cover.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+    padding: 0 35px;
+    background: wheat;
+    border-radius: 0 0 20px 20px;
+    border-color: black;
+    box-shadow: 2px 2px 10px grey;
+}
+
+.logo {
+    margin-left: 1%;
+}
+
+.navbar-row ul {
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    font-family: 'Fredoka One',cursive;
+}
+
+.navbar-row ul li {
+    display: inline-block;
+    margin: 0 20px;
+    font-family: 'Fredoka One', cursive;
+    font-size: 20px;
+}
+
+.text{
+    font-size: 30px;
+    font-family: 'Fredoka One', cursive;
+    font-weight: bolder;
+    color: brown;
+    margin-left: 10%;
+}
+
+.text:hover{
+    transform: scale(1.5);
+    transition: all 0.5s ease;
+    cursor: pointer;
+}
+
+.navbar-row ul li a {
+    text-decoration: none;
+    color: green;
+    font-weight: bolder;
+}
+
+.navbar-row ul li a:hover {
+    color: black;
+    text-shadow: 0 1px 3px grey;
+}
+
+.text h1 {
+    font-family: 'Fredoka One', cursive;
+    font-weight: bolder;
+    color: black;
+    font-size: 30px;
+}
+
+
+.sub-head {
+    font-family: 'Fredoka One', cursive;
+    font-size: 30px;
+    text-shadow: 0 1px 3px grey;
+    color: wheat;
+    margin-left: 10%;
+    margin-top: 5%;
+}
+
+.main-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 10%;
+    flex-wrap: wrap;
+}
+
+.left-content {
+   position: absolute;
+   top: 40%;
+   left: 30%;
+   transform: translate(-50%, -50%);
+   text-align: center;
+
+}
+
+.left-content h2{
+    margin-bottom: auto;
+}
+
+.left-content h2:hover{
+    transform: scale(1.1);
+    transition: all 0.5s ease;
+    cursor: pointer;
+}
+
+.left-content form{
+    margin-top: auto;
+}
+
+.animate_slogan h2 {
+    font-family: 'Fredoka One', cursive;
+    font-size: 40px;
+    text-shadow: 0 1px 3px grey;
+    color: wheat;
+    margin: 0 0 15px 0;
+}
+
+.donate {
+    margin-top: 60px;
+}
+
+.donate-button {
+    font-family: 'Fredoka One', cursive;
+    background-color: wheat;
+    border-radius: 100px;
+    box-shadow: 2px 2px 10px grey;
+    color: green;
+    font-size: 25px;
+    height: 120px;
+    width: 270px;
+    border: none;
+    cursor: pointer;
+    transition: transform 0.5s ease;
+    margin-top: -10px;
+    left: 50%;
+}
+
+.donate-button:hover {
+    transform: scale(1.1);
+}
+
+.right-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end; 
+    gap: 20px; 
+    flex: 1;
+    min-width: 350px;
+    margin-top: 15%;
+}
+
+.container-1, .container-2 {
+    background-color: wheat;
+    border-radius: 20px;
+    box-shadow: 2px 2px 10px grey;
+    padding: 20px;
+    flex: 1; 
+    max-width: 350px; 
+}
+
+.container-1:hover, .container-2:hover {
+    transform: scale(1.05);
+    transition: all 0.5s ease;
+    cursor: pointer;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    color: black;
+    height: 100%; 
+}
+
+.box img {
+    border-radius: 10px;
+    width: 100%;
+    height: auto;
+}
+
+.box p {
+    margin: 20px 0;
+    font-family: 'Fredoka One', cursive;
+    font-size: 18px;
+    color: #444;
+}
+
+.box button {
+    font-family: 'Fredoka One', cursive;
+    background-color: white;
+    border-radius: 100px;
+    box-shadow: 2px 2px 10px grey;
+    color: green;
+    font-size: 16px;
+    height: 40px;
+    width: 150px;
+    margin-top: auto; 
+    border: none;
+    cursor: pointer;
+    transition: transform 0.5s ease;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box button:hover {
+    transform: scale(1.1);
+}
+
+.box button img {
+    height: 20px;
+    width: 20px;
+    margin-right: 8px;
+}
+
+
+.footer {
+    text-align: center;
+    padding: 20px;
+    margin-top: 50px;
+    background-color: #ddd;
+    box-shadow: 0 -2px 5px rgba(0,0,0,0.1);
+}
