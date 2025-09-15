@@ -28,7 +28,7 @@
     margin-top: 40px;
     margin-bottom: 20px;
 }
-/* Global Reset */
+
 * {
     margin: 0;
     padding: 0;
@@ -123,7 +123,13 @@ body{
     text-shadow: 0 1px 3px grey;
     color: wheat;
     margin-left: 10%;
-    margin-top: 5%;
+    margin-top: 5%;;
+}
+
+.section-head:hover{
+    transform: scale(1.1);
+    transition: all 0.5s ease;
+    cursor: pointer;
 }
 
 .main-content {
